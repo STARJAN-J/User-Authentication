@@ -5,7 +5,7 @@ import java.util.*;
 public class signup 
 {
     Scanner sc = new Scanner(System.in);
-    String name, gender, D_O_B;
+    String name, gender, D_O_B, MailId;
     int age,  password, confirm_Password;
     int input;
 
@@ -24,6 +24,9 @@ public class signup
 
         System.out.print("    Gender\n(Male/Female/Others): "+ "\t ");
         gender = sc.next();
+
+        System.out.print("    Mail Id         : "+ "\t ");
+        MailId = sc.next();
         
         do
         {
